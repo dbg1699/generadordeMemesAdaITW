@@ -1,0 +1,55 @@
+.head {
+    width: 100%;
+    text-align: center;
+}
+
+.app-name {
+    padding: 1%;
+    background-color: var(--color-header);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+/****BOTONES****/
+
+.btns-container {
+    background-color: var(--color-header);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0.2%;
+}
+
+.buttons {
+    background-color: rgb(50, 50, 50);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.2%;
+    font-size: 14px;
+}
+
+.buttons:hover { /*cambiar la transición, tal vez...*/
+    border: rgb(219, 17, 11) 1px solid;
+    border-radius: 5px;
+}
+
+.btn {
+    border: white solid 1px;
+    border-radius: 5px;
+}
+
+.icon-size {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.btn-dark-appearance {
+    display: inline
+}
+
+.btn-light-appearance {
+    display: none
+}
