@@ -1,0 +1,28 @@
+.txt-aside {
+    right: 0;
+  }
+  .esconderTexto{
+    display:none
+  }
+  
+  .fondoTransparenteTop{
+  position:absolute;
+  top:0;
+  background-color: transparent;
+  }
+  
+  .fondoTransparenteBottom{
+    position:absolute;
+    bottom:0;
+    background-color: transparent;
+  }
+  
+  .light-stroke{
+    -webkit-text-stroke: 1px #77acf1;
+  }
+  .dark-stroke{
+    -webkit-text-stroke: 1px #000;
+  }
+  .stroke-none{
+    -webkit-text-stroke: none;
+  }
